@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @SpringBootApplication
 public class Scbo2oApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Scbo2oApplication.class, args);
+        float f = 6.8f;
     }
 
 }
