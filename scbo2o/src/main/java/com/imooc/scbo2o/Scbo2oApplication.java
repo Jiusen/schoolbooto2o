@@ -10,7 +10,6 @@ public class Scbo2oApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Scbo2oApplication.class, args);
-        float f = 6.8f;
     }
 
 }
